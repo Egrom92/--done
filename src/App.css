@@ -1,0 +1,27 @@
+.nav-item:not(:last-child) {
+    margin-bottom: 5px;
+}
+.list-group-item .nav-link {
+    padding: 0;
+}
+.sidebar {
+    height: 100vh;
+    position: fixed;
+}
+.page-link {
+    cursor: pointer;
+}
+.add-new {
+    margin-left: auto;
+    display: flex;
+}
+.add-new a:not(:last-child) {
+    margin-right: 10px;
+}
+.card-footer button {
+    margin-right: 10px;
+}
+.goHome {
+    margin: 30px 0 30px 30px;
+    display: inline-block;
+}
